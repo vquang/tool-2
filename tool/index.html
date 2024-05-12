@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <!-- <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'"
+    />
+    <meta
+      http-equiv="X-Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'"
+    /> -->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="icons/css/all.css">
+    <title>Tool Dectection</title>
+  </head>
+  <body>
+    <div class="header">
+      <div class="h-left">
+        <button class="h-left-mal" onclick="change(0)">Malware</button>
+        <button class="h-left-log" onclick="change(1)">Analyze Log</button>
+      </div>
+      <div class="h-right">
+        <button onclick="scanApi()">SCAN</button>
+      </div>
+    </div>
+    <div class="option">
+      <input type="file" class="choose-file" style="display:none" webkitdirectory directory multiple />
+      <div class="op-frame" style="display: none;">
+        <button class="op op-0" onclick="sqliApi()">sql injection</button>
+        <button class="op op-1" onclick="xssApi()">xss</button>
+        <button class="op op-2" onclick="cmdiApi()">cmd injection</button>
+        <button class="op op-3" onclick="pathTraversalApi()">path traversal</button>
+      </div>
+    </div>
+    <div class="container">
+      <div class="screen-mal" style="display:none;">
+        
+      </div>
+      <div class="screen-log" style="display:none;">
+      </div>
+    </div>
+  </body>
+  <script src="api.js"></script>
+</html>

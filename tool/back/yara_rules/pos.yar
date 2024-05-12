@@ -1,0 +1,8 @@
+include "./malware/POS.yar"
+include "./malware/POS_Bernhard.yar"
+include "./malware/POS_BruteforcingBot.yar"
+include "./malware/POS_Easterjack.yar"
+include "./malware/POS_FastPOS.yar"
+include "./malware/POS_LogPOS.yar"
+include "./malware/POS_MalumPOS.yar"
+include "./malware/POS_Mozart.yar"
