@@ -1,5 +1,5 @@
 
-# HƯỚNG DẪN CÀI ĐẶT THƯ VIỆN VÀ CHẠY TOOL
+# HƯỚNG DẪN CÀI ĐẶT THƯ VIỆN VÀ CHẠY TOOL 2
 
 ## Mô tả công cụ
 Là một công cụ giúp rà quét mã độc và phát hiện xâm nhập dựa trên phân tích log bằng học máy bên phía máy chủ web server.
