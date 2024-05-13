@@ -6,10 +6,10 @@ Là một công cụ giúp rà quét mã độc và phát hiện xâm nhập d�
 
 ## Cài đặt các công cụ tích hợp
 
-Cài đặt công cụ: curl:
+Cài đặt công cụ: curl, python3-pip:
 
 ```bash
-  sudo apt install curl
+  sudo apt install curl python3-pip
 ```
 
 Cài đặt framework nodejs (nếu câu lệnh npm install 20 báo không tìm thấy npm thì restart lại máy rồi chạy lại câu lệnh đó):
