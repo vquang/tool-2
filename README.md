@@ -6,7 +6,7 @@ Là một công cụ giúp rà quét mã độc và phát hiện xâm nhập d�
 
 ## Cài đặt các công cụ tích hợp
 
-Cài đặt công cụ: nmap, hydra, sqlmap, sshpass, curl:
+Cài đặt công cụ: curl:
 
 ```bash
   sudo apt install curl
